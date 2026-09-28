@@ -44,9 +44,9 @@ SVM / BERT / RoBERTa
 Model Evaluation
         ↓
 Gradio GUI
+```
 
 ---
-</> Markdown
 
 ## 📊 Dataset
 
@@ -54,45 +54,20 @@ The project uses Google's **GoEmotions** dataset.
 
 ### Dataset Details
 
-- **Dataset:** GoEmotions
-- **Source:** Google Research
-- **Text Source:** Reddit comments
-- **Emotion Categories:** 28
-- **Annotation Type:** Multi-label
-- **Final Classification Task:** 3 emotional profiles
+| Item | Value |
+|---|---|
+| **Dataset** | GoEmotions |
+| **Source** | Google Research |
+| **Text Source** | Reddit comments |
+| **Emotion Categories** | 28 |
+| **Annotation Type** | Multi-label |
+| **Final Classification Task** | 3 emotional profiles |
 
 The 28 emotion categories include:
 
-- admiration
-- amusement
-- anger
-- annoyance
-- approval
-- caring
-- confusion
-- curiosity
-- desire
-- disappointment
-- disapproval
-- disgust
-- embarrassment
-- excitement
-- fear
-- gratitude
-- grief
-- joy
-- love
-- nervousness
-- optimism
-- pride
-- realization
-- relief
-- remorse
-- sadness
-- surprise
-- neutral
+admiration, amusement, anger, annoyance, approval, caring, confusion, curiosity, desire, disappointment, disapproval, disgust, embarrassment, excitement, fear, gratitude, grief, joy, love, nervousness, optimism, pride, realization, relief, remorse, sadness, surprise, neutral
 
-The dataset is **not stored in this GitHub repository**. It is downloaded using the Hugging Face `datasets` library.
+> The dataset is **not stored in this GitHub repository**. It is downloaded using the Hugging Face `datasets` library.
 
 ---
 
@@ -161,3 +136,40 @@ The project fine-tunes:
 
 ```text
 bert-base-uncased
+```
+
+### RoBERTa
+
+The project fine-tunes:
+
+```text
+roberta-base
+```
+
+---
+
+## 📈 Evaluation
+
+Models are compared using accuracy, precision, recall, and macro F1-score.
+
+| Model | Accuracy | Macro F1 |
+|---|---|---|
+| SVM | TBD | TBD |
+| BERT | TBD | TBD |
+| RoBERTa | TBD | TBD |
+
+---
+
+## 🖥️ Gradio GUI
+
+An interactive Gradio interface lets you enter text and see the predicted emotional profile.
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone <your-repo-url>
+cd <your-repo-name>
+pip install -r requirements.txt
+```
