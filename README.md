@@ -235,8 +235,7 @@ A GPU is recommended for BERT and RoBERTa training.
 Modeling-Co-Occurring-Emotional-Profiles-Transformer-Based-Emotion-Detection/
 │
 ├── README.md
-├── emotion_profiling.ipynb
-└── ...
+└── emotion_profiling.ipynb
 ```
 
 ---
